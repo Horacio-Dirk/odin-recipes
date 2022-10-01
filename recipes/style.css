@@ -1,0 +1,31 @@
+body {
+    background-color: burlywood;
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif, Cambria;
+    text-decoration: overline;
+
+}
+p {
+    text-indent: 5%;
+}
+
+.parent {
+    text-align: center;
+}
+
+.parent > ul {
+    display: inline-block;
+    text-align: justify;
+}
+
+.parent > ol {
+    display: inline-block;
+    text-align: justify;
+}
+
+
